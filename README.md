@@ -3,10 +3,11 @@
 <br>
 <br>**Intention of code:**
     <br> Simulate a homogeneous population (split by age), where people:
-    <br> Die randomly at a constant rate over time (Day 0..1100)
-    <br> Some get vac on specific days. (Doses curve from real FOI data)
-    <br> Compare how many people die in each group (Normalized):
-    <br> Vaccinated (vx), Unvaccinated (uvx)
+    <br> -> Die randomly at a constant rate over time (Day 0..1100)
+    <br> -> Some get vac on specific days. (Doses curve from real FOI data)
+    <br> -> Compare how many people die in each group (Normalized):
+    <br> -> Vaccinated (vx), Unvaccinated (uvx)
+    <br>
     <br> **The idea is to see whether vx people die as oftenas uvx people — assuming everyone is otherwise equal.**
 
 <br>**But in practice, the code:**
@@ -17,7 +18,7 @@
 <br>
 <br>
 
-**The code is trying to simulate vaccine effectiveness by comparing death rates, 
+**The code is trying to simulate vaccine effectiveness by comparing equal constant death rates, 
 but accidentally introduces bias by only allowing people who survive long enough to become vx — giving vx people an unfair survival advantage
 <br>This makes vx look better — even if vx had zero actual effect.**
 
@@ -38,15 +39,29 @@ _________________________________________
 This example illustrates the normalized D-rate for individuals aged 70 within a heterogeneous population, where the D-rate remains constant but random over time (from day 0 to day 1100). 
 The individuals in the vx group are randomly selected and shifted from the total population based on the number of doses administered to that age group, 
 as indicated by FOI-Data, which tracks the distribution of doses over time.
+**total, vx and uvx normalized death rates should be equal**
 
 Shows normalized D rate for AGE 70.<br>
 <br>
-<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_SIM.png width="1280" height="auto">
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20Population_and_Deaths_Trends_with_All_Doses_SIM.png width="1280" height="auto">
 <br>
 
 Shows raw D rate for AGE 70.<br>
 <br>
-<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_SIM_RAW.png width="1280" height="auto">
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20Population_and_Deaths_Trends_with_All_Doses_SIM_RAW.png width="1280" height="auto">
+<br>
+_________________________________________
+**Normalized Stacked Mean Deaths and Doses per Age (Aligned to Doses)**
+
+**Stacked normalized curves (total, vx and uvx) should have a horizontal course at the same level**
+Stacked curve normalized for AGE 70.<br>
+<br>
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_SIM.png width="1280" height="auto">
+<br>
+
+Stacked curve raw for AGE 70.<br><br>
+<br>
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_SIM_RAW.png width="1280" height="auto">
 <br>
 _________________________________________
 
