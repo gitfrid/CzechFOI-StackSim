@@ -1,5 +1,6 @@
 ### CzechFOI-StackSim 
 **CzechFOI Investigation into whether population trends per age and stacking events are fairly distributed**
+<br>Phyton script [B) event_stacking.py](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Py%20Scripts/B%29%20event_stacking.py)
 <br>
 <br>**Intention of code:**
     <br> Simulate a homogeneous population (split by age), where people:
