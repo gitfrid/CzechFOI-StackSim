@@ -7,7 +7,7 @@
     <br> Some get vac on specific days. (Doses curve from real FOI data)
     <br> Compare how many people die in each group (Normalized):
     <br> Vaccinated (vx), Unvaccinated (uvx)
-    <br> The idea is to see whether vx people die less often than uvx people — assuming everyone is otherwise equal.
+    <br> The idea is to see whether vx people die as often than uvx people — assuming everyone is otherwise equal.
 
 <br>**But in practice, the code:**
     <br> Assigns a death date to everyone randomly ✅
