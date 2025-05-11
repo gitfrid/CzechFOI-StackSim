@@ -26,16 +26,20 @@
 <br>
 
 _________________________________________
-**all AgeGroups**
+**D and Population Trends per Age simulation**
 
-Shows for AG 1 to 113.
+This example illustrates the normalized D-rate for individuals aged 70 within a heterogeneous population, where the D-rate remains constant but random over time (from day 0 to day 1100). 
+The individuals in the vx group are randomly selected and shifted from the total population based on the number of doses administered to that age group, 
+as indicated by FOI-Data, which tracks the distribution of doses over time.
+
+Shows normalized D rate for AGE 70.<br>
 <br>
-<img src= width="1280" height="auto">
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_SIM.png width="1280" height="auto">
 <br>
 
-Shows 
+Shows raw D rate for AGE 70.<br>
 <br>
-<img src= width="1280" height="auto">
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_SIM_RAW.png width="1280" height="auto">
 <br>
 _________________________________________
 
