@@ -1,13 +1,13 @@
 ### CzechFOI-StackSim 
-**Czech FOI Stack Simulation Analysis** 
+**Czech FOI investigation into whether population trends per age and stacking events are fairly distributed**
 <br>
 <br>**Intention of code:**
     <br> Simulate a homogeneous population (split by age), where people:
     <br> -> Die randomly at a constant rate over time (Day 0..1100)
     <br> -> Some get vac on specific days. (Doses curve from real FOI data)
-    <br> -> Compare how many people die in each group (Normalized):
+    <br> -> Compare how many people die in each group (normalized):
     <br> -> Vaccinated (vx), Unvaccinated (uvx)
-    <br> **The idea is to see whether vx people die as oftenas uvx people — assuming everyone is otherwise equal.**
+    <br> **The idea is to see whether vx people die as often as uvx people — assuming everyone is otherwise equal from a homogen total population.**
 
 <br>**But in practice, the code:**
     <br> Assigns a death date to everyone randomly ✅
