@@ -2,7 +2,7 @@
 **Czech FOI Stack Simulation Analysis** 
 <br>
 <br>**Intention of code:**
-    <br> Simulate a population (split by age), where people:
+    <br> Simulate a homogeneous population (split by age), where people:
     <br> Die randomly at a constant rate over time (Day 0..1100)
     <br> Some get vac on specific days. (Doses curve from real FOI data)
     <br> Compare how many people die in each group (Normalized):
