@@ -12,8 +12,8 @@
 <br>**But in practice, the code:**
     <br> Assigns a death date to everyone randomly ✅
     <br> Assigns doses starting at a certain day (FOI Data) ✅
-    <br> **Only labels a person as "vaccinated" if their death date is after their dose day ❌**
-    <br> So people who die early are forced into the unvaccinated group ❌
+    <br> **Only labels a person as "vaccinated" if their death date is after their dose day! ❌**
+    <br> So people who die early are forced into the unvaccinated group 
 
 <br>**Abbreviations:** The figures are per age group from the CSV files in the TERRA folder:
 | **Deaths**        | **Definition**                                             | **Population/Doses**  | **Definition**                                        |
