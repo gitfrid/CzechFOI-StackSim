@@ -14,7 +14,11 @@
     <br> Assigns doses starting at a certain day (FOI Data) ✅
     <br> **Only labels a person as "vaccinated" if their death date is after their dose day! ❌**
     <br> So people who die early are forced into the unvaccinated group 
-
+<br>
+<br>
+**The code is trying to simulate vaccine effectiveness by comparing death rates, 
+but accidentally introduces bias by only allowing people who survive long enough to become vx — giving vx people an unfair survival advantage**
+<br>
 <br>**Abbreviations:** The figures are per age group from the CSV files in the TERRA folder:
 | **Deaths**        | **Definition**                                             | **Population/Doses**  | **Definition**                                        |
 |-------------------|------------------------------------------------------------|-----------------------|-------------------------------------------------------|
