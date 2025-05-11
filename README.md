@@ -50,11 +50,12 @@ Shows raw D rate for AGE 70.<br>
 <br>
 <img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20Population_and_Deaths_Trends_with_All_Doses_SIM_RAW.png width="1280" height="auto">
 <br>
+
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20Population_and_Deaths_Trends_with_All_Doses_SIM.html)
 _________________________________________
 **Normalized Stacked Mean Deaths and Doses per Age (Aligned to Doses)**
 
-**Stacked normalized curves (total, vx and uvx) should have a horizontal course at the same level**
-Stacked curve normalized for AGE 70.<br>
+Stacked curve normalized for AGE 70. Stacked normalized curves (total, vx and uvx) should have a horizontal course at the same level<br>
 <br>
 <img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_SIM.png width="1280" height="auto">
 <br>
@@ -63,6 +64,8 @@ Stacked curve raw for AGE 70.<br><br>
 <br>
 <img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_SIM_RAW.png width="1280" height="auto">
 <br>
+
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_SIM.html)
 _________________________________________
 
 Uses real Czech FOI (Freedom of Information) data, to calculate normalized death rates and all doses given curves. 
