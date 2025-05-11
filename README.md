@@ -13,9 +13,9 @@
 <br>**But in practice, the code:**
     <br> Assigns a death date to everyone randomly ✅
     <br> Assigns doses starting at a certain day (FOI Data) ✅
-    <br>
     <br> **Only labels a person as "vaccinated" if their death date is after their dose day! ❌**
     <br> So people who die early are forced into the unvaccinated group 
+    <br>
 <br>**Trying to simulate vaccine effectiveness by comparing equal constant death rates, 
 but introduces bias by only allowing people who survive long enough to become vx. Giving vx people an unfair survival advantage. This makes vx look better — even if vx had zero actual effect.**
 
