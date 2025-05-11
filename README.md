@@ -53,36 +53,35 @@ Stacked curve raw for AGE 70.<br><br>
 <br>
 
 [Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_SIM.html)
-_________________________________________
 
 _________________________________________
 **D and Population Trends per Age real FOI data**
 
 Shows normalized D rate for AGE 70.<br> 
 <br>
-<img src= width="1280" height="auto">
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_REAL.png width="1280" height="auto">
 <br>
 
 Shows raw D rate for AGE 70.<br>
 <br>
-<img src= width="1280" height="auto">
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_RAW_REAL.png width="1280" height="auto">
 <br>
 
-[Download interactive html]()
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20Population_and_Deaths_Trends_with_All_Doses.html)
 _________________________________________
 **Normalized Stacked Mean Deaths and Doses per Age real FOI data (Aligned to Doses)**
 
 Stacked curve normalized for AGE 70.<br> 
 <br>
-<img src= width="1280" height="auto">
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_REAL.png width="1280" height="auto">
 <br>
 
 Stacked curve raw for AGE 70.<br><br>
 <br>
-<img src= width="1280" height="auto">
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_RAW_REAL.png width="1280" height="auto">
 <br>
 
-[Download interactive html]()
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths.html)
 _________________________________________
 
 <br>**Abbreviations:** The figures are per age group from the CSV files in the TERRA folder:
