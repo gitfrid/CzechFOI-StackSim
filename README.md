@@ -21,7 +21,7 @@
 but accidentally introduces bias by only allowing people who survive long enough to become vx — giving vx people an unfair survival advantage
 <br>This makes vx look better — even if vx had zero actual effect.**
 
-<br>
+
 <br>**Abbreviations:** The figures are per age group from the CSV files in the TERRA folder:
 | **Deaths**        | **Definition**                                             | **Population/Doses**  | **Definition**                                        |
 |-------------------|------------------------------------------------------------|-----------------------|-------------------------------------------------------|
