@@ -12,25 +12,11 @@
 <br>**But in practice, the code:**
     <br> Assigns a death date to everyone randomly ✅
     <br> Assigns doses starting at a certain day (FOI Data) ✅
+    <br>
     <br> **Only labels a person as "vaccinated" if their death date is after their dose day! ❌**
     <br> So people who die early are forced into the unvaccinated group 
-<br>
-<br>
-
-**Trying to simulate vaccine effectiveness by comparing equal constant death rates, 
-but accidentally introduces bias by only allowing people who survive long enough to become vx — giving vx people an unfair survival advantage
-<br>This makes vx look better — even if vx had zero actual effect.**
-
-
-<br>**Abbreviations:** The figures are per age group from the CSV files in the TERRA folder:
-| **Deaths**        | **Definition**                                             | **Population/Doses**  | **Definition**                                        |
-|-------------------|------------------------------------------------------------|-----------------------|-------------------------------------------------------|
-| NUM_D             | Number deaths                                              | NUM_POP               | Total population of people                                          |
-| NUM_DUVX          | Number unvaxed deaths                                      | NUM_UVX               | Number of unvaxed people                              |
-| NUM_DVX           | Number vaxed deaths                                        | NUM_VX                | Number of vaxed people  (who get first dose)                              |
-| NUM_DVD1-DVD7     | Number deaths doses 1 - 7                                  | NUM_VD1-VD7           | Number of vax doses 1 - 7                             |
-| NUM_DVDA          | Number deaths from all doses                               | NUM_VDA               | Total number of all vax doses (sum)                   |
-<br>
+<br>**Trying to simulate vaccine effectiveness by comparing equal constant death rates, 
+but introduces bias by only allowing people who survive long enough to become vx. Giving vx people an unfair survival advantage. This makes vx look better — even if vx had zero actual effect.**
 
 _________________________________________
 **D and Population Trends per Age simulation**
@@ -68,6 +54,17 @@ Stacked curve raw for AGE 70.<br><br>
 
 [Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_SIM.html)
 _________________________________________
+
+
+<br>**Abbreviations:** The figures are per age group from the CSV files in the TERRA folder:
+| **Deaths**        | **Definition**                                             | **Population/Doses**  | **Definition**                                        |
+|-------------------|------------------------------------------------------------|-----------------------|-------------------------------------------------------|
+| NUM_D             | Number deaths                                              | NUM_POP               | Total population of people                                          |
+| NUM_DUVX          | Number unvaxed deaths                                      | NUM_UVX               | Number of unvaxed people                              |
+| NUM_DVX           | Number vaxed deaths                                        | NUM_VX                | Number of vaxed people  (who get first dose)                              |
+| NUM_DVD1-DVD7     | Number deaths doses 1 - 7                                  | NUM_VD1-VD7           | Number of vax doses 1 - 7                             |
+| NUM_DVDA          | Number deaths from all doses                               | NUM_VDA               | Total number of all vax doses (sum)                   |
+<br>
 
 Uses real Czech FOI (Freedom of Information) data, to calculate normalized death rates and all doses given curves. 
 [Python Scripts](https://github.com/gitfrid/CzechFOI-StackSim/tree/main/Py%20Scripts) process and visualize CSV data from the [TERRA folder](https://github.com/gitfrid/CzechFOI-StackSim/tree/main/TERRA), generating interactive HTML plots. To interact with the plots, click on a legend entry to show/hide curves.
