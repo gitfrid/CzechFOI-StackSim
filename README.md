@@ -7,7 +7,6 @@
     <br> -> Some get vac on specific days. (Doses curve from real FOI data)
     <br> -> Compare how many people die in each group (Normalized):
     <br> -> Vaccinated (vx), Unvaccinated (uvx)
-    <br>
     <br> **The idea is to see whether vx people die as oftenas uvx people — assuming everyone is otherwise equal.**
 
 <br>**But in practice, the code:**
@@ -18,7 +17,7 @@
 <br>
 <br>
 
-**The code is trying to simulate vaccine effectiveness by comparing equal constant death rates, 
+**Trying to simulate vaccine effectiveness by comparing equal constant death rates, 
 but accidentally introduces bias by only allowing people who survive long enough to become vx — giving vx people an unfair survival advantage
 <br>This makes vx look better — even if vx had zero actual effect.**
 
