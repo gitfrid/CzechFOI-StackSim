@@ -1,5 +1,5 @@
 ### CzechFOI-StackSim 
-**Czech FOI investigation into whether population trends per age and stacking events are fairly distributed**
+**CzechFOI Investigation into whether population trends per age and stacking events are fairly distributed**
 <br>
 <br>**Intention of code:**
     <br> Simulate a homogeneous population (split by age), where people:
