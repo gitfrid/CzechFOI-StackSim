@@ -22,8 +22,7 @@ _________________________________________
 **Death and Population Trends per Age simulation**
 
 This example illustrates the normalized death rate for individuals aged 70 within a heterogeneous population, where the random death rate remains constant over time (from day 0 to day 1100). 
-The individuals in the vx group are randomly selected and shifted from the total population based on the number of doses administered to that age group, 
-as indicated by FOI-Data, which tracks the distribution of doses over time.
+The individuals in the vx group are randomly selected and shifted from the total population based on the number of doses administered to that age group. (Distribution of doses over time from the real FOI-Data )  
 
 
 **Total, vx and uvx normalized death rates should theoretically be equal**<br>
