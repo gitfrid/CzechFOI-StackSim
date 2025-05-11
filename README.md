@@ -4,7 +4,7 @@
 <br>**Intention of code:**
     <br> Simulate a homogeneous population (split by age), where people:
     <br> -> Die randomly at a constant rate over time (Day 0..1100)
-    <br> -> Some get vac on specific days. (Doses curve from real FOI data)
+    <br> -> Some get vax on specific days. (Doses curve from real FOI data)
     <br> -> Compare how many people die in each group (normalized):
     <br> -> Vaccinated (vx), Unvaccinated (uvx)
     <br> **The idea is to see whether vx people die as often as uvx people — assuming everyone is otherwise equal from a homogen total population.**
