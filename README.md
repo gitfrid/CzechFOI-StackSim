@@ -41,7 +41,8 @@ The individuals in the vx group are randomly selected and shifted from the total
 as indicated by FOI-Data, which tracks the distribution of doses over time.
 
 
-Shows normalized D rate for AGE 70. (Total, vx and uvx normalized death rates should theoretically be equal)<br>
+**Total, vx and uvx normalized death rates should theoretically be equal**<br>
+Shows normalized D rate for AGE 70.<br> 
 <br>
 <img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20Population_and_Deaths_Trends_with_All_Doses_SIM.png width="1280" height="auto">
 <br>
@@ -55,7 +56,8 @@ Shows raw D rate for AGE 70.<br>
 _________________________________________
 **Normalized Stacked Mean Deaths and Doses per Age (Aligned to Doses)**
 
-Stacked curve normalized for AGE 70. Stacked normalized curves (total, vx and uvx) should  theoretically have a horizontal course at the same level<br>
+**Stacked normalized curves (total, vx and uvx) should  theoretically have a horizontal course at the same level**<br>
+Stacked curve normalized for AGE 70.<br> 
 <br>
 <img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_SIM.png width="1280" height="auto">
 <br>
