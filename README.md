@@ -56,6 +56,41 @@ Stacked curve raw simulated for AGE 70 - simulated.<br>
 _________________________________________
 <br>
 
+## Same sample with immune protection lag bias 
+The study says protection starts after 21 days (the immune lag).
+VX people are wrongly counted as UVX during the delay period - when not handled correctly.
+Same homogeneous population as above with same random constant death rate over time 
+_________________________________________
+**Total, vx and uvx normalized death rates should theoretically be equal**<br>
+Shows normalized death rate for AGE 70 - simulated with POST_VX_DELAY=21 days.<br> 
+<br>
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_POSTVXDELAY_21_SIM.png width="1280" height="auto">
+<br>
+
+Shows raw death rate for AGE 70 - simulated with POST_VX_DELAY=21 days.<br>
+<br>
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_POSTVXDELAY_21_SIM_RAW.png width="1280" height="auto">
+<br>
+
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20Population_and_Deaths_Trends_with_All_Doses_POSTVXDELAY_21_SIM.html)
+_________________________________________
+**Normalized Stacked Mean Deaths and Doses per Age (Aligned to Doses)**
+
+**Stacked normalized curves (total, vx and uvx) should  theoretically have a horizontal course at the same level**<br>
+Stacked curve normalized for AGE 70 - simulated with POST_VX_DELAY=21 days<br> 
+<br>
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_POSTVXDELAY_21_SIM.png width="1280" height="auto">
+<br>
+
+Stacked curve raw simulated for AGE 70 - simulated with POST_VX_DELAY=21 days.<br>
+<br>
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_POSTVXDELAY_21_SIM_RAW.png width="1280" height="auto">
+<br>
+
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_POSTVXDELAY_21_SIM.html)
+_________________________________________
+<br>
+
 ## Comparison with real FOI Data
 _________________________________________
 **Death and Population Trends per Age real FOI data**
