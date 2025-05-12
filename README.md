@@ -55,7 +55,7 @@ Stacked curve raw simulated for AGE 70 - simulated.<br>
 _________________________________________
 <br>
 
-## Same sample with immune protection lag bias 
+### Same sample with immune protection lag bias 
 The study says protection starts after 21 days (the immune lag).
 VX people are wrongly counted as UVX during the delay period - when not handled correctly.
 Same homogeneous population as above with same random constant death rate over time 
