@@ -1,10 +1,11 @@
 ### CzechFOI-StackSim 
 **CzechFOI Investigation into whether population trends per age and stacking events are fairly distributed**
+<br>Phyton script [B) event_stacking.py](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Py%20Scripts/B%29%20event_stacking.py)
 <br>
 <br>**Intention of code:**
     <br> Simulate a homogeneous population (split by age), where people:
     <br> -> Die randomly at a constant rate over time (Day 0..1100)
-    <br> -> Some get vac on specific days. (Doses curve from real FOI data)
+    <br> -> Some get vax on specific days. (Doses curve from real FOI data)
     <br> -> Compare how many people die in each group (normalized):
     <br> -> Vaccinated (vx), Unvaccinated (uvx)
     <br> **The idea is to see whether vx people die as often as uvx people — assuming everyone is otherwise equal from a homogen total population.**
@@ -12,9 +13,9 @@
 <br>**But in practice, the code:**
     <br> Assigns a death date to everyone randomly ✅
     <br> Assigns doses starting at a certain day (FOI Data) ✅
-    <br>
     <br> **Only labels a person as "vaccinated" if their death date is after their dose day! ❌**
     <br> So people who die early are forced into the unvaccinated group 
+    <br>
 <br>**Trying to simulate vaccine effectiveness by comparing equal constant death rates, 
 but introduces bias by only allowing people who survive long enough to become vx. Giving vx people an unfair survival advantage. This makes vx look better — even if vx had zero actual effect.**
 
@@ -22,8 +23,7 @@ _________________________________________
 **Death and Population Trends per Age simulation**
 
 This example illustrates the normalized death rate for individuals aged 70 within a heterogeneous population, where the random death rate remains constant over time (from day 0 to day 1100). 
-The individuals in the vx group are randomly selected and shifted from the total population based on the number of doses administered to that age group, 
-as indicated by FOI-Data, which tracks the distribution of doses over time.
+The individuals in the vx group are randomly selected and shifted from the total population based on the number of doses administered to that age group. (Distribution of doses over time from the real FOI-Data )  
 
 
 **Total, vx and uvx normalized death rates should theoretically be equal**<br>
