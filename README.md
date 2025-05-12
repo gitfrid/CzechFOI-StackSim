@@ -16,8 +16,7 @@
     <br> **Only labels a person as "vaccinated" if their death date is after their dose day! ❌**
     <br> So people who die early are forced into the unvaccinated group 
     <br>
-<br>**Trying to simulate vaccine effectiveness by comparing equal constant death rates, 
-but introduces bias by only allowing people who survive long enough to become vx. Giving vx people an unfair survival advantage. This makes vx look better — even if vx had zero actual effect.**
+<br>**Simulates a homogeneous population with a constant death rate, then splits it into (vx) and (uvx) groups. However, it introduces bias by only allowing people who survive long enough to be (vx). This gives vx individuals an unfair survival advantage, making vx appear beneficial — even if it had zero actual effect..**
 
 _________________________________________
 **Death and Population Trends per Age simulation**
