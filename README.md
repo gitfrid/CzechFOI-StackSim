@@ -98,7 +98,7 @@ Alright, let’s now add a few additional deaths to the homogeneous population a
 <br>It is statistically difficult to detect a signal from such a small number of additional deaths, as the counterfactual baseline is unknown.
 _________________________________________
 **Total, vx and uvx normalized death rates should theoretically be equal**<br>
-Shows normalized death rate for age 70 — simulated with POST_VX_DELAY = 21 days, and one extra death per 5,000 doses, occurring on a random day within a 248-day time window. These extra deaths are distributed around the time the doses were administered.<br> 
+Shows normalized death rate for age 70 — simulated with POST_VX_DELAY = 21 days, and one extra death per 5,000 doses, occurring on a random day within a 248-day time window. These extra deaths are distributed to the hetrogen population around the time the doses were administered.<br> 
 <br>
 <img  src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_EXTRA_D_SIM.png width="1280" height="auto">
 <br>
