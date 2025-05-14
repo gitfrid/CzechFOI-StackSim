@@ -90,6 +90,41 @@ Stacked curve raw simulated for AGE 70 - simulated with POST_VX_DELAY=21 days.<b
 _________________________________________
 <br>
 
+### Same sample with protection lag and extra deaths 
+Alright, let’s now add a few additional deaths to the homogeneous population and observe what happens when we randomly split them into (vx) and (uvx) groups.
+<br>
+<br>Note that the split is random, except that individuals who died before receiving a dose are not assigned to the (vx) group — **since you think including them would be paradoxical.** Instead, another random living individual is selected for (vx) group in their place.
+_________________________________________
+**Total, vx and uvx normalized death rates should theoretically be equal**<br>
+Shows normalized death rate for age 70 — simulated with POST_VX_DELAY = 21 days, and one extra death per 5,000 doses, occurring on a random day within a 248-day time window. These extra deaths are distributed around the time the doses were administered.<br> 
+<br>
+<img  src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_EXTRA_D_SIM.png width="1280" height="auto">
+<br>
+
+Shows rwaw death rate for age 70 — simulated with POST_VX_DELAY = 21 days, and one extra death per 5,000 doses, occurring on a random day within a 248-day time window.<br>
+<br>
+<img  src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_EXTRA_D_RAW_SIM.png width="1280" height="auto">
+<br>
+
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_EXTRA_D_SIM.html)
+_________________________________________
+**Normalized Stacked Mean Deaths and Doses per Age (Aligned to Doses)**
+
+Stacked curve normalized for AGE 70 - simulated with POST_VX_DELAY=21 days, and one extra death per 5000 Doses on random day inside a time window of 248 days<br> 
+<br>
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_EXTRA_D_SIM.png width="1280" height="auto">
+<br>
+
+Stacked curve raw simulated for AGE 70 - simulated with POST_VX_DELAY=21 days, and one extra death per 5000 Doses on random day inside a time window of 248 days.<br>
+<br>
+<img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_EXTRA_D_RAW_SIM.png width="1280" height="auto">
+<br>
+
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_EXTRA_D_SIM.html)
+
+_________________________________________
+<br>
+
 ## Comparison with real FOI Data
 _________________________________________
 **Death and Population Trends per Age real FOI data**
