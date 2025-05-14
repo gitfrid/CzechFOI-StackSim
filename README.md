@@ -90,10 +90,12 @@ Stacked curve raw simulated for AGE 70 - simulated with POST_VX_DELAY=21 days.<b
 _________________________________________
 <br>
 
-### Same sample with protection lag and extra deaths 
+### Same sample with protection lag and few extra deaths 
 Alright, let’s now add a few additional deaths to the homogeneous population and observe what happens when we randomly split them into (vx) and (uvx) groups.
 <br>
 <br>Note that the split is random, except that individuals who died before receiving a dose are not assigned to the (vx) group — **since you think including them would be paradoxical.** Instead, another random living individual is selected for (vx) group in their place.
+<br>
+<br>It is statistically very difficult to detect such a small number of additional deaths, as the counterfactual baseline is unknown.
 _________________________________________
 **Total, vx and uvx normalized death rates should theoretically be equal**<br>
 Shows normalized death rate for age 70 — simulated with POST_VX_DELAY = 21 days, and one extra death per 5,000 doses, occurring on a random day within a 248-day time window. These extra deaths are distributed around the time the doses were administered.<br> 
