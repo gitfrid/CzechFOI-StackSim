@@ -108,7 +108,7 @@ Shows rwaw death rate for age 70 — simulated with POST_VX_DELAY = 21 days, and
 <img  src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_EXTRA_D_RAW_SIM.png width="1280" height="auto">
 <br>
 
-[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20Population_and_Deaths_Trends_with_All_Doses_EXTRA_D_SIM.html)
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20Population_and_Deaths_Trends_with_All_Doses_EXTRA_D_SIM.html)
 _________________________________________
 **Normalized Stacked Mean Deaths and Doses per Age (Aligned to Doses)**
 
@@ -122,7 +122,7 @@ Stacked curve raw simulated for AGE 70 - simulated with POST_VX_DELAY=21 days, a
 <img src=https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_EXTRA_D_RAW_SIM.png width="1280" height="auto">
 <br>
 
-[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B)%20event_stacking/B)%20DoseAligned_Stacked_Normalized_Deaths_EXTRA_D_SIM.html)
+[Download interactive html](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Plot%20Results/B%29%20event_stacking/B%29%20DoseAligned_Stacked_Normalized_Deaths_EXTRA_D_SIM.html)
 
 _________________________________________
 <br>
