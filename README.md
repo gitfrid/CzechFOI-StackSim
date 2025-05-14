@@ -19,7 +19,7 @@
 <br>**Simulates a homogeneous population with a constant death rate, then splits it into (vx) and (uvx) groups. However, it introduces bias by only allowing people who survive long enough to be (vx). This gives vx individuals an unfair survival advantage, making vx appear beneficial — even if it had zero actual effect..**
 
 _________________________________________
-**Death and Population Trends per Age simulation**
+**Death and Population Trends per Age simulation - Immortal Time Bias**
 
 This example illustrates the normalized death rate for individuals aged 70 within a heterogeneous population, where the random death rate remains constant over time (from day 0 to day 1100). 
 The individuals in the vx group are randomly selected and shifted from the total population based on the number of doses administered to that age group. (Distribution of doses over time from the real FOI-Data )  
