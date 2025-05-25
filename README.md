@@ -1,5 +1,10 @@
 ### CzechFOI-StackSim 
 **CzechFOI Investigation into whether normalized population trends per age and stacking events are fairly distributed**
+
+<br>
+
+**Hypothesis: There is no way to compare vaccinated (VX) and unvaccinated (UVX) groups perfectly fair and exactly by measurement or mathematically when the groups are defined by a time-dependent, non-random vaccination schedule, even if the underlying individual death rates are the same!**
+
 <br>Phyton script [B) event_stacking.py](https://github.com/gitfrid/CzechFOI-StackSim/blob/main/Py%20Scripts/B%29%20event_stacking.py)
 <br>
 <br>**Intention of code:**
